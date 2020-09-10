@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require('fs');
 
 const buffer = fs.readFileSync('readFileSync.js', 'utf8');
 const src = buffer.toString();

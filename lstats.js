@@ -1,4 +1,4 @@
-import {promises as fs} from 'fs';
+const fs = require('fs').promises;
 
 const files = ['package.json', 'aaa.js', 'readFileAsync.js'];
 const stats = [];

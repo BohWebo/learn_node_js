@@ -1,5 +1,5 @@
-import fs from 'fs';
-import zip from 'zlib';
+const fs = require('fs');
+const zip = require('zlib');
 
 const rs = fs.createReadStream('./readFileSync.js');
 const ws = fs.createWriteStream('./copy.gz');

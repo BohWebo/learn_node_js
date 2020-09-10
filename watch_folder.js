@@ -1,5 +1,5 @@
-import fs from 'fs';
-const {promises: fsAsync} = fs;
+const fs = require('fs');
+const fsAsync = fs.promises;
 
 const changes = [];
 
